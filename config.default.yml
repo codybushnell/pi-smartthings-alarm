@@ -1,0 +1,16 @@
+Sensors:
+  - Name: Front Door
+    id: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    pin: 26
+  - Name: Balcony Door
+    id: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    pin: 4 
+  - Name: Garage Door
+    id: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    pin: 18
+API:
+  url: https://graph.api.smartthings.com:443/api/smartapps/installations/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/event
+  headers:
+    host: https://graph.api.smartthings.com:443
+    authorization: Bearer xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    content-type: application/json

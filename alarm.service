@@ -1,0 +1,11 @@
+[Unit]
+Description=Alarm System
+After=multi-user.target
+ 
+[Service]
+Type=simple
+ExecStart=/home/pi/alarm/alarm.py
+Restart=on-abort
+ 
+[Install]
+WantedBy=multi-user.target
